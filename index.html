@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>https://www.hero.portfolio.com</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7978aa1182.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logom1.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i> <!--CROSS ICON-->
+                </ul>
+                <i class="fa-solid fa-list" onclick="openmenu()"></i> <!--MENU ICON-->
+            </nav>
+            <div class="header-text">
+                <p>Software Engineer</p>
+                <p>Web Apps Developer</p>
+                <p>Full Stack Developer</p>
+                <p>Graphics Designer</p>
+                <p>Tech Problem Solver</p>
+                <h1>Hi, I'm <span>Engineer Hero</span><br> from Sierra Leone</h1>
+            </div>
+        </div>
+    </div>
+    <!-----------ABOUT PAGE BEGIN HERE------------>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/hero2.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm Engineer Hero, a personate software engineer and full stack developer
+                         with strong skills in Html, CSS, JavaScript, PHP, MySQL, Java, C, and C++.
+                         <br> I specialize in building efficient, responsive, and user focused web
+                          applications from front  to back. <br> I love turning ideas into digital 
+                          solutions and continually improving my skills to stay ahead in the tech space.
+                          <br> Whether it a simple website or a complex system, i bring clean code
+                           and creative problem solving to every project.<br> <b style="color: #ff004f;">Let's connect and 
+                           create something meaningful with technology!</b> </p>
+
+                           <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                           </div>
+                           <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Desingning web interfaces</li>
+				                <li><span>Web Development</span> <br>Web app Development</li>
+				                <li><span>App Development</span><br> Building Android / Desktop apps</li>
+                                 <li><span>Problem solving and Debugging </span><br> Identifying and resolving code issues to ensure to smooth and reliable performance</li>
+                                <li><span>Services focus </span><br>Delivering user centered solutions with attention to quality speed, and satisfaction.</li>
+                                <!--<li><span>Effective Decision making </span><br> Building Android / Desktop apps</li>-->
+                                <li><span>Testing and optimization  </span><br> Ensuring apps run efficient through testing and performance</li>
+                                <!--<li><span>Innovation  </span><br> Building Android / Desktop apps</li>-->
+                                <!--<li><span>Database Management </span><br> Building Android / Desktop apps</li>-->
+                                <!--<li><span>Microsoft office suite </span><br> Building Android / Desktop apps</li>-->
+                            </ul>
+                           </div>
+                           <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2024 - Current</span><br>for Creating and managing the company website and database systems, as well as handing online applications. EduAcess Travelling Agency</li>
+				                <li><span>2022 - 2024</span><br>Head of Department for computer science  Golden Site for Excellence</li>
+				                <li><span>2023 - 2024</span> <br>Lead a team project to develop a multifunctional E-commerce website Sky Vision College</li>
+				                <li><span>2022 - 2023</span><br> Head of Operations in for the search for examination malpractices NAWEN</li>
+
+                            </ul>
+                           </div>
+                           <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2024 - Current</span><br>BSc in Computer Science Sky Vision</li>
+                                <li><span>2024 </span><br> Certificate in Microsoft Office Package Sky Vision College</li>
+				                <li><span>2023 - 2024 </span><br>Diploma in Software Engineering (CODE)</li>
+                                <li><span>2023 - 2024</span> <br>Certificate in Graphics Designing UNIMTECH</li>
+				                <li><span>2022 - 2023</span><br> Certificate in MSO and Advance Excel CDAC</li>
+
+                            </ul>
+                           </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----------SERVICES SECTION BEGIN HERE----------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>I create responsive and user friendly websites, 
+                        working across both frontend and backend. <br>
+                       I use HTML, CSS, JavaScript, PHP, and MYSQL 
+                       to deliver full stack solutions that bring
+                        ideas to life online. </p>
+                    <a href="#contact" target="_blank">Contact Me</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-ruler"></i>
+                    <h2>Graphics Design</h2>
+                    <p>I craft visually and appealing designs that communicate clearly and 
+                        leave a lasting impact. <br>
+                        From branding to social media posts, <br>
+                        I combine creativity with purpose to design content that connects. 
+                    </p>
+                    <a href="#contact" target="_blank">Contact Me</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>Software Development</h2>
+                    <p>I design and build reliable software solutions tailored to solve real world problems. <br>
+                        My focus is on writing clean, efficient code using languages like <br>
+                         Java, C, C++, and PHP to create smooth and scalable applications.
+                    </p>
+                    <a href="#contact" target="_blank">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!----------ANOTHER SERVICES SECTION BEGIN HERE----------->
+    <div id="services">
+        <div class="container">
+            <!--<h1 class="sub-title">My Services</h1>-->
+            <div class="services-list">
+                
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Database Design & Management</h2>
+                    <p>I design and manage structured database that support fast data retrieval, secure storage,
+                         and scalable performance with a strong grasp of MySQL. <br> I build system that ensure
+                          data integrity and efficient operations. </p>
+                    <a href="#contact" target="_blank">Contact Me</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-object-group"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>I design user interfaces that are not only visually appealing but also intuitive and user
+                         centered. <br> Using wireframes, layout strategies, and usability testing,
+                         I ensure each product delivers a seamless and engaging user experience.  
+                    </p>
+                    <a href="#contact" target="_blank">Contact Me</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                    <h2>Maintance & Support</h2>
+                    <p>I provide ongoing support and updates for applications and websites, <br> including bugs fixes,
+                         performance optimization, and feature enhancements, to keep system running smoothly long after launch.
+                    </p>
+                    <a href="#contact" target="_blank">Contact Me</a></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--PORTFOLIO OR MY WORK SECTION BEGINS HERE-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/trouble01.jpg" alt="an image showing my word">
+                    <div class="layer">
+                        <h3>Troublshooting Pc</h3>
+                        <p>I diagnose and fix common or complex hardware <br>
+                             and software issues to keep systems running smoothly.</p>
+                        <!--GO TO FONT AWASOME WEBSITE AND SEARCH FOR LINK CHOOSE EXTENAL LINK ALT AND PAST WITHIN THE A TAG-->
+                       <!--<p><b>Let connect! click the link below</b></p>-->
+                        <a href="#contact"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/coding.jpg" alt="an image showing my word">
+                    <div class="layer">
+                        <h3>Coding</h3>
+                        <p>I write clean code, functional code using different programming languages.</p>
+                        <!--GO TO FONT AWASOME WEBSITE AND SEARCH FOR LINK CHOOSE EXTENAL LINK ALT AND PAST WITHIN THE A TAG-->
+                        <a href="#contact"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/web.jpg" alt="an image showing my word">
+                    <div class="layer">
+                        <h3>Web App </h3>
+                        <p>I build responsive and dynamic websites and web apps <br>
+                             with both frontend and backend features.</p>
+                        <!--GO TO FONT AWASOME WEBSITE AND SEARCH FOR LINK CHOOSE EXTENAL LINK ALT AND PAST WITHIN THE A TAG-->
+                        <a href="#contact"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="seemore.html" class="btn" target="_blank">See more</a>
+        </div>
+    </div>
+
+    <!--------------------CONTACT SECTION START FROM HERE-------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <!--and a send icon in the p tag where the email is -->
+                    <p><i class="fas fa-paper-plane"></i> engineerhero817@gmail.com</p>
+                    <!--<p><i class="fa-solid fa-globe"></i><a href="https://github.com/engineerhero">https://github.com/engineerhero</a></p>-->
+                    <p><i class="fa-solid fa-mobile"></i> +23299230643</p>
+                    <!--GO TO FONT AWASOME WEBSITE AND SEARCH FOR LINK CHOOSE EXTENAL LINK ALT AND PAST WITHIN THE A TAG-->
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=61586081738858" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://x.com/EngineerHe2120" target="_blank"><i class="fa-solid fa-x"></i></a>
+                        <a href="https://wa.me/23299230643" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/engineerhero001?igsh=MTgwam1pemVobTdxbw==&utm_source=ig_contact_invit" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href=" https://github.com/engineerhero" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                    </div>
+                    <p>Click the link below to download and view my CV</p>
+                    <a href="images/Engineer Hero CV.pdf" download class="btn btn2">Download my CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Enter your name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Enter your message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <!--ADD ICON -->
+            <p>copyright <i class="fa-regular fa-copyright"></i> Engineer Hero 2026 <i class="fa-solid fa-heart "></i> You name it, i design it.</p>
+        </div>
+    </div>
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyNjVz1epuj8M8uTMkWFY30AlYEcjwQi56p-fbantkdPVgVXG-ovzZgkLmZo_oTTcPuMw/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Thank you for contacting Engineer Hero, Your Message is Successfully Sent"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
